@@ -19,7 +19,5 @@ A clean, minimalist expense tracking application built to demonstrate **Modern A
 *(Tip: Add a screenshot of your app here!)*
 
 <img width="429" height="889" alt="Screenshot from 2026-03-02 11-07-36" src="https://github.com/user-attachments/assets/abf44dbb-7b84-4266-8023-386cd232d03c" />
-<img width="429" height="889" alt="Screenshot from 2026-03-02 11-07-36" src="https://github.com/user-attachments/assets/abf44dbb-7b84-4266-8023-386cd232d03c" />
 
-<img width="429" height="889" alt="Screenshot from 2026-03-02 11-09-29" src="https://github.com/user-attachments/assets/70714c43-3877-4dd8-9fee-242bcfc52cbf" />
 <img width="429" height="889" alt="Screenshot from 2026-03-02 11-09-29" src="https://github.com/user-attachments/assets/70714c43-3877-4dd8-9fee-242bcfc52cbf" />
