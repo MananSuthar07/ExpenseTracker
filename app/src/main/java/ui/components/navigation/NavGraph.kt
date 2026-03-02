@@ -4,10 +4,14 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.expensetracker.viewmodel.ExpenseViewModel
 import ui.components.screens.AddExpenseScreen
 
 @Composable
-fun NavGraph(navController: NavHostController) {
+fun NavGraph(
+    navController: NavHostController,
+    viewModel: ExpenseViewModel
+) {
     NavHost(
         navController = navController,
         startDestination = Screen.Home.route
