@@ -17,9 +17,10 @@ fun NavGraph(
         startDestination = Screen.Home.route
     ) {
         composable(route = Screen.Home.route) {
-            HomeScreen(onNavigateToAdd = {
-                navController.navigate(Screen.AddExpense.route)
-            })
+            HomeScreen(
+                viewModel = viewModel,
+                onNavigateToAdd = { navController.navigate(Screen.AddExpense.route) }
+            )
         }
         composable(route = Screen.AddExpense.route) {
             AddExpenseScreen(
