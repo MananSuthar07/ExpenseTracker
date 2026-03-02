@@ -22,9 +22,10 @@ fun NavGraph(
             })
         }
         composable(route = Screen.AddExpense.route) {
-            AddExpenseScreen(onBack = {
-                navController.popBackStack()
-            })
+            AddExpenseScreen(
+                viewModel = viewModel,
+                onBack = { navController.popBackStack() }
+            )
         }
     }
 }
