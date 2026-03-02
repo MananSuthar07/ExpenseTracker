@@ -1,3 +1,10 @@
+/**
+ * LAYER: UI (VIEW)
+ * ROLE: The "Face".
+ * PURPOSE: Just displays what the ViewModel tells it to.
+ * It should NOT contain any math or database logic. It only handles "How it looks."
+ */
+
 package ui.components.screens
 
 import androidx.compose.foundation.layout.Arrangement

@@ -1,3 +1,10 @@
+/**
+ * LAYER: MODEL
+ * ROLE: The "Blueprint".
+ * PURPOSE: Defines what an object looks like.
+ * If you want to add a new field (like 'Location'), start here.
+ */
+
 package model
 
 import androidx.room.Entity

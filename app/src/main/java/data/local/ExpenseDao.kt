@@ -1,3 +1,10 @@
+/**
+ * LAYER: DATA (LOCAL)
+ * ROLE: The "Librarian".
+ * PURPOSE: Handles the raw SQL/SQLite commands.
+ * This file is the only one allowed to talk directly to the Database.
+ */
+
 package data.local
 
 import androidx.room.*

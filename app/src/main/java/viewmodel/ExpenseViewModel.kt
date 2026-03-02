@@ -1,3 +1,11 @@
+/**
+ * LAYER: VIEWMODEL
+ * ROLE: The "Brain" / "Chef".
+ * PURPOSE: Holds the UI state and handles logic.
+ * It transforms raw data from the Repo into something the UI can easily show.
+ * It survives screen rotations!
+ */
+
 package com.example.expensetracker.viewmodel // Ensure this matches your folder!
 
 import ExpenseRepository
